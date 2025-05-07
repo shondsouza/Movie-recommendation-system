@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMatch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Netflix+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#" class="logo">MovieMatch</a>
+    </div>
+    
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Movies You'll Love</h1>
+            <p class="hero-subtitle">Our AI recommends the perfect movies based on your taste</p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Search Section -->
+        <div class="search-section">
+            <div class="search-container">
+                <div class="custom-select" id="custom-select">
+                    <div class="select-trigger" id="select-trigger">
+                        <span id="selected-option">Select a movie you enjoyed</span>
+                        <span class="arrow"></span>
+                    </div>
+                    <div class="select-dropdown" id="select-dropdown">
+                        <input type="text" class="select-search" id="select-search" placeholder="Search for a movie...">
+                        <div class="select-options" id="select-options">
+                            <!-- Movie options will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button id="recommend-btn" class="recommend-btn">Get Recommendations</button>
+        </div>
+        
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p class="loading-text">Finding perfect movies for you...</p>
+        </div>
+        
+        <!-- No Results Message -->
+        <div id="no-results" class="no-results">
+            <h3>No movies found matching your search</h3>
+            <p>Try a different search term or select from the dropdown list</p>
+        </div>
+        
+        <!-- Recommendations Section -->
+        <div id="recommendations" class="recommendations">
+            <h2 class="section-title">Movies You Might Like</h2>
+            <div class="movie-grid" id="movie-grid">
+                <!-- Movie recommendations will be displayed here -->
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+            <p>Developed by Shon Dsouza & Deepesh | © 2025 MovieMatch</p>
+    </footer>
+    
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
