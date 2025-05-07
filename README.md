@@ -11,20 +11,6 @@ This project is a **Movie Recommender System** that uses machine learning techni
 - 📱 **User Interface**: Interactive web interface for movie recommendations
 - 📈 **Performance Optimization**: Cached computations for faster recommendations
 
-## 📦 Project Structure
-
-```
-Movie-Recommender/
-├── data/                  # Raw and processed movie data
-├── models/               # Saved machine learning models
-├── src/                  # Source code
-│   ├── preprocessing.py  # Data preprocessing pipeline
-│   ├── recommender.py    # Recommendation engine
-│   └── utils.py          # Utility functions
-├── requirements.txt      # Project dependencies
-└── README.md            # Project documentation
-```
-
 ## 🛠️ Setup Instructions
 
 1. Clone the repository:
