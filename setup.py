@@ -3,21 +3,22 @@ from setuptools import setup
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-REPO_NAME = "Movie-Recommender-System-Using-Machine-Learning"
-AUTHOR_USER_NAME = "Shon Dsouza"
+# Project configuration
+REPO_NAME = "MovieMatch"
+AUTHOR_USER_NAME = "ShonDsouza"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = ['streamlit']
+LIST_OF_REQUIREMENTS = ['flask', 'requests', 'numpy', 'pandas']
 
 
 setup(
-    name=SRC_REPO,
-    version="0.0.1",
-    author='Shon Dsouza',
-    description="package for Movie Recommender System",
+    name=Movie-recommendation-system,
+    version="1.0.0",
+    author="Shon Dsouza",
+    description="A modern movie recommendation system with machine learning",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/shondsouza/movie-recommandation-system.git",
-    author_email="shondsouza11@gmail.com",
+    url="https://github.com/shondsouza/Movie-recommendation-system.git", 
+    author_email="shondsouza11@gmail.con", 
     packages=[SRC_REPO],
     license="MIT",
     python_requires=">=3.7",
