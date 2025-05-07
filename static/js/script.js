@@ -176,22 +176,26 @@ document.addEventListener('DOMContentLoaded', () => {
             const moviePoster = document.createElement('img');
             moviePoster.classList.add('movie-poster');
             
+            // First set a default placeholder to show something immediately
+            const encodedTitle = encodeURIComponent(movie.title);
+            moviePoster.src = `https://via.placeholder.com/500x750/222222/e50914?text=${encodedTitle}`;
+            
             // Handle image loading with better error handling
             if (movie.poster && movie.poster.startsWith('http')) {
-                // Set placeholder first while the actual image loads
-                moviePoster.src = '/api/placeholder/1';
+                const imgTest = new Image();
                 
-                // Handle image loading errors
-                moviePoster.onerror = function() {
-                    console.log('Error loading image:', movie.poster);
-                    this.src = '/api/placeholder/1';
+                imgTest.onload = function() {
+                    moviePoster.src = movie.poster;
+                    console.log(`Successfully loaded poster for ${movie.title}`);
                 };
                 
-                // Try to load the actual movie poster
-                moviePoster.src = movie.poster;
-            } else {
-                // Use placeholder if no valid poster URL
-                moviePoster.src = '/api/placeholder/1';
+                imgTest.onerror = function() {
+                    console.log(`Failed to load poster for ${movie.title}: ${movie.poster}`);
+                    // Keep the placeholder that's already set
+                };
+                
+                // Start loading the test image
+                imgTest.src = movie.poster;
             }
             
             moviePoster.alt = movie.title;
