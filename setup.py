@@ -11,7 +11,7 @@ LIST_OF_REQUIREMENTS = ['flask', 'requests', 'numpy', 'pandas']
 
 
 setup(
-    name=Movie-recommendation-system,
+    name=Movie Recommendation System,
     version="1.0.0",
     author="Shon Dsouza",
     description="A modern movie recommendation system with machine learning",
