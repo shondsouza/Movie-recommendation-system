@@ -1,5 +1,7 @@
 # 🎬 Movie Recommender System
 
+![Image](https://github.com/user-attachments/assets/3e4e1bc1-6a43-494d-a163-967c4c0b8dd2)
+
 A sophisticated movie recommendation engine that combines machine learning with an interactive web interface to deliver personalized movie suggestions based on user preferences.
 
 ![Movie Recommender](https://img.shields.io/badge/Project-Movie%20Recommender-orange)
