@@ -111,12 +111,34 @@ The web interface communicates with the backend API to:
 
 Check out our demo video to see the system in action:
 
-![Movie Recommender Demo](demo/video.mp4)
+[![Movie Recommender Demo](https://img.shields.io/badge/Demo-Play%20Video-red?style=for-the-badge&logo=youtube)](demo/video.mp4)
 
-<video width="100%" controls>
+<!-- The video element below uses the autoplay attribute and intersection observer to play when scrolled into view -->
+<video width="100%" controls preload="metadata" id="demo-video" poster="/api/placeholder/640/360">
   <source src="demo/video.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<script>
+// This script will make the video play when scrolled into view
+document.addEventListener('DOMContentLoaded', function() {
+  const video = document.getElementById('demo-video');
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        video.play();
+      } else {
+        video.pause();
+      }
+    });
+  }, { threshold: 0.7 });
+  
+  if (video) {
+    observer.observe(video);
+  }
+});
+</script>
 
 The demonstration video is located at `demo/video.mp4` in the repository.
 
