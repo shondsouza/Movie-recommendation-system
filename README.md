@@ -1,7 +1,6 @@
-# 🎬 Movie Recommender System
-
 ![Image](https://github.com/user-attachments/assets/3e4e1bc1-6a43-494d-a163-967c4c0b8dd2)
 
+## About
 A sophisticated movie recommendation engine that combines machine learning with an interactive web interface to deliver personalized movie suggestions based on user preferences.
 
 ![Movie Recommender](https://img.shields.io/badge/Project-Movie%20Recommender-orange)
@@ -20,15 +19,6 @@ A sophisticated movie recommendation engine that combines machine learning with 
 - **Advanced ML Pipeline**: Processes movie metadata including genres, cast, crew, and plot details
 - **Fast Performance**: Optimized algorithms with cached computations for instant recommendations
 - **Interactive Experience**: Dynamic content loading and responsive design for all devices
-
-## 🖥️ Web Interface
-
-The system features a fully implemented web interface with:
-
-- **Modern UI/UX**: Clean and intuitive design for easy navigation
-- **Dynamic Content**: JavaScript-powered real-time recommendations
-- **Responsive Design**: Optimized for both desktop and mobile devices
-- **Interactive Elements**: Search functionality, movie cards, and detailed information modals
 
 ## 🛠️ Technology Stack
 
@@ -82,29 +72,6 @@ The system features a fully implemented web interface with:
    python src/recommender.py --movie "Movie Title"
    ```
 
-## 📁 Project Structure
-
-```
-Movie-recommendation-system/
-├── app.py                  # Flask web application entry point
-├── data/                   # Dataset directory
-├── src/                    # Core Python code
-│   ├── preprocessing.py    # Data processing pipeline
-│   └── recommender.py      # Recommendation engine
-├── static/                 # Web static assets
-│   ├── css/                # Stylesheets
-│   ├── js/                 # JavaScript files
-│   └── images/             # Image assets
-├── templates/              # HTML templates
-│   ├── index.html          # Main page
-│   └── results.html        # Recommendations page
-└── requirements.txt        # Project dependencies
-```
-
-## 🖼️ Screenshots
-
-[Consider adding screenshots of your web interface here]
-
 ## 🔬 How It Works
 
 1. **Data Preprocessing**: Cleans and transforms movie metadata into features
@@ -113,28 +80,6 @@ Movie-recommendation-system/
 4. **Web Interface**: Presents an intuitive UI for users to interact with the system
 5. **Recommendation Engine**: Delivers personalized movie suggestions based on user input
 
-## 🔮 Future Enhancements
-
-- User accounts and preference history
-- Hybrid recommendation system (content + collaborative filtering)
-- Integration with external APIs for real-time movie data
-- Advanced filtering options (by year, rating, etc.)
-- Social sharing capabilities
-
-## 📊 Performance
-
-- Average recommendation time: < 1 second
-- Efficient memory usage with optimized data structures
-- Caching system for frequently requested recommendations
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙌 Acknowledgments
-
-- TMDB for providing the dataset
-- Open-source ML libraries that made this project possible
-- Contributors and feedback providers
-
----
