@@ -8,9 +8,7 @@ A sophisticated movie recommendation engine that combines machine learning with 
 ![Python](https://img.shields.io/badge/Python-3.8+-green)
 ![Web](https://img.shields.io/badge/Web-HTML%2FCSS%2FJS-yellow)
 
-# 📺 YouTube Video Demo
-
-[Click here](https://www.youtube.com/watch?v=9F2yq7q5Q9s) to watch the demo.
+## YouTube Video - [Click here](https://www.youtube.com/watch?v=9F2yq7q5Q9s)
 
 ## ✨ Features
 
