@@ -1,26 +1,25 @@
 ![Image](https://github.com/user-attachments/assets/3e4e1bc1-6a43-494d-a163-967c4c0b8dd2)
 
 ## About
+
 A sophisticated movie recommendation engine that combines machine learning with an interactive web interface to deliver personalized movie suggestions based on user preferences.
 
-![Movie Recommender](https://img.shields.io/badge/Project-Movie%20Recommender-orange)
-![ML](https://img.shields.io/badge/Machine%20Learning-Content--Based-blue)
-![Python](https://img.shields.io/badge/Python-3.8+-green)
-![Web](https://img.shields.io/badge/Web-HTML%2FCSS%2FJS-yellow)
 
 ### YouTube Video - [Click here](https://www.youtube.com/watch?v=9F2yq7q5Q9s)
-
-## Features
-
-- **Intelligent Recommendations**: Uses content-based filtering to suggest movies similar to your favorites
-- **Responsive Web Interface**: Built with modern HTML, CSS, and JavaScript for a seamless user experience
-- **Advanced ML Pipeline**: Processes movie metadata including genres, cast, crew, and plot details
-- **Fast Performance**: Optimized algorithms with cached computations for instant recommendations
-- **Interactive Experience**: Dynamic content loading and responsive design for all devices
 
 ## Tech Stacks
 
 ![Python](https://img.shields.io/badge/Python-%233776ab.svg?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![CountVectorizer](https://img.shields.io/badge/CountVectorizer-ML%20Tool-informational?style=for-the-badge)
+![Cosine Similarity](https://img.shields.io/badge/Cosine%20Similarity-Metric-blueviolet?style=for-the-badge)
+![TMDB 5000 Movie Dataset](https://img.shields.io/badge/Dataset-TMDB%205000%20Movies-01B4E4?style=for-the-badge&logo=themoviedatabase&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23f05032.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
@@ -68,7 +67,3 @@ A sophisticated movie recommendation engine that combines machine learning with 
    ```bash
    python src/recommender.py --movie "Movie Title"
    ```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
