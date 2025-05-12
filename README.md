@@ -67,3 +67,9 @@ A sophisticated movie recommendation engine that combines machine learning with 
    ```bash
    python src/recommender.py --movie "Movie Title"
    ```
+
+## Contributors
+
+<a href="https://github.com/shondsouza"> <img src="https://github.com/shondsouza.png" width="100" style="border-radius: 50%;" alt="Shon Dsouza"/> </a> <a href="https://github.com/deepeshh10"> 
+   <img src="https://github.com/deepeshh10.png" width="100" style="border-radius: 50%;" alt="Deepesh"/> 
+</a>
